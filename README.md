@@ -23,5 +23,11 @@ Le projet est volontairement structuré autour d’un **unique notebook**
 Le projet se lance via le notebook.
 
 ### Étapes :
+Il est recommandé d’utiliser un environnement virtuel Python (`venv`) pour installer les dépendances.
+```bash
+python -m venv .venv
+source .venv/bin/activate   # Linux / macOS
+.venv\Scripts\activate      # Windows
+
 ```bash
 pip install -r requirements.txt
