@@ -1,0 +1,6 @@
+# --------------------
+# Environnements Python
+# --------------------
+.venv/
+
+dataset_piano/maestro-v3.0.0/
