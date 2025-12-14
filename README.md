@@ -22,6 +22,15 @@ Le projet est volontairement structuré autour d’un **unique notebook**
 ## Exécution du projet
 Le projet se lance via le notebook.
 
+## Prérequis
+
+- Python **3.10** 
+- pip
+- Environnement virtuel Python (`venv`)
+
+- Le projet a été développé et testé avec Python 3.10.  
+- L’utilisation de versions plus récentes (ex. 3.12 / 3.13) peut entraîner des incompatibilités avec certaines dépendances.
+
 ### Étapes :
 Il est recommandé d’utiliser un environnement virtuel Python (`venv`) pour installer les dépendances.
 ```bash
