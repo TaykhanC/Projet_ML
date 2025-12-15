@@ -25,7 +25,6 @@ Le projet se lance via le notebook.
 ## Prérequis
 
 - Python **3.10** 
-- pip
 - Environnement virtuel Python (`venv`)
 
 - Le projet a été développé et testé avec Python 3.10.  
@@ -33,10 +32,13 @@ Le projet se lance via le notebook.
 
 ### Étapes :
 Il est recommandé d’utiliser un environnement virtuel Python (`venv`) pour installer les dépendances.
+
 ```bash
-python -m venv .venv
-source .venv/bin/activate   # Linux / macOS
-.venv\Scripts\activate      # Windows
+py -3.10 -m venv venv
+venv\Scripts\activate      # bash
+python -m pip install --upgrade pip
+```
 
 ```bash
 pip install -r requirements.txt
+```
