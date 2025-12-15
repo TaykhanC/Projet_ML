@@ -35,7 +35,7 @@ Il est recommandé d’utiliser un environnement virtuel Python (`venv`) pour in
 
 ```bash
 py -3.10 -m venv venv
-venv\Scripts\activate      # bash
+venv\Scripts\activate      # powershell
 python -m pip install --upgrade pip
 ```
 
